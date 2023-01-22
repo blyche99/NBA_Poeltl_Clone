@@ -180,5 +180,5 @@ def select_player(df):
     target_player = df.sample()
     return target_player
 
-
-main(data)
+if __name__ == "__main__":
+    main(data)
