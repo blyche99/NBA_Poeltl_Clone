@@ -14,7 +14,7 @@ def main(df):
     total_guess=8
     correct = False
 
-    print(x)
+    #print(x)
 
     while (guess_count < total_guess) and (correct == False):
         val = guess(guess_count, x, data)
